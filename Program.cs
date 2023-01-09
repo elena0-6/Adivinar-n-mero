@@ -27,6 +27,10 @@ while(i<3){
 	if (i==3){
 		Console.WriteLine($"Has perdido, el número a adivinar era {numeroParaAdivinar}");
 	}
+	
+	if (entrada > 15){
+		Console.WriteLine ("Este número no es válido");
+	}
+
 }
-		if (entrada > 15)
-			Console.WriteLine ("Este número no es válido");
+
